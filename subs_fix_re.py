@@ -42,7 +42,7 @@ def time_replacer(time_list):
 regex = '\d\d:\d\d:\d\d,\d\d\d'
 pattern = re.compile(regex)
 
-f = open('C:\Users\Gaurav\Desktop\content.srt', 'r')
+f = open('C:\Users\Gaurav\Desktop\content.srt', 'r')#enter the directory of original subs file
 f2 = open('subs.txt', 'w')
 
 while True:
